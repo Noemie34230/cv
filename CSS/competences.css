@@ -1,0 +1,98 @@
+.section_competences{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 25px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    color: #D9D9D9;
+    line-height: 1.5;
+}
+
+.card{
+    width: 50%;
+}
+
+h2{
+    background-color: #D9D9D9;
+    width: 250px;
+    height: 90px;
+    border-radius: 100px;
+    color: #E57F08;
+    text-shadow: 2px 1px 1px #1F1F1F;
+    text-align: center; 
+    line-height: 3;
+    font-size: 24px;
+}
+h3{
+
+    color: #E57F08;
+    text-shadow: 2px 1px 1px #1F1F1F;
+    text-align: center; 
+    line-height: 2.5;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+strong , .fa-star{
+    color: #E57F08;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    color: #1F1F1F;
+    margin-top : 10px;
+
+}
+
+.levels_languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.level{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.star {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    text-shadow: 2px 1px 1px #1F1F1F;
+}
+
+@media screen and (max-width: 780px){
+    .block{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+  
+    .card{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+
+
